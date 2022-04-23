@@ -1,0 +1,70 @@
+body {
+    background: #FFFEFC;
+    font-family: "lato; times new roman", sans-serif;
+    color:#914522;
+  }
+  
+  
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400px;
+  }
+  
+  p {
+      font-weight: bold;
+      color:#2b1003;
+      
+  }
+    
+  
+  /*Atributos para clase header, imagen, tamaño de letra, tamaño */
+  .header{
+      height: 6em;
+      padding: 3em; 
+      font-size: 2em; 
+      background-image: url("/assets/imgs/titulo3.jpg");
+      background-size:cover; 
+      background-position:center; 
+   }
+  
+   /*Atributos para el subtitulo*/
+   .subtitulo {
+       margin-top: 0; margin-bottom: 0;
+   }    
+  
+  
+  /* Aplicacion de Css para las imagenes de los productos que se muestran */
+  .imagen {
+      text-align: center;
+  }    
+  
+  .products {
+      width: 90%;
+      margin: auto;  
+  }
+  
+  /*Atributos de etiquetas td*/
+  .products td {
+      width: 50%;
+      height: max-content;
+      padding: 0.5em;
+      
+  }
+  
+  /* Atributos de las etiquetas img */
+  .products img{
+      width: 50%;
+      height: min-content;
+      border: solid 1px rgb(253, 255, 255);
+  }
+  
+  /* Aplicacion de Css para el footer */
+  .footer{
+      height: 3em;
+      line-height: 3em;     
+      background-color:#914522;
+      color: white;
+      text-align: center;
+      font-weight: 900;
+      }
